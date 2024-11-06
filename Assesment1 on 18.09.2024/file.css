@@ -1,0 +1,22 @@
+body {
+  background-color: gray;
+}
+h1 {
+  text-transform: medium;
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.poster {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  color: black;
+  font-family: monospace;
+  text-align: center;
+}
+
+.border {
+  border: 5px solid white;
+  width: 100%;
+}

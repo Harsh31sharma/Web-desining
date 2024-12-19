@@ -1,0 +1,12 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:red;
+    box-shadow: 2px 2px 10px blue;
+    margin: 50px auto;
+    transition-duration: 5s;
+    }
+div:hover{
+    background-color: aqua;
+    box-shadow: 4px 5px 20px black;
+}

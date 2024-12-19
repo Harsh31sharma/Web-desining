@@ -1,0 +1,40 @@
+#square{
+    height: 400px;
+    width: 400px;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top:250px ;
+}
+#face{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: rgb(236, 204, 21);
+}
+#leye{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#reye{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 80px;
+    left: 290px;
+}
+#mouth{
+    height: 70px;
+    width: 200px;
+    border-radius: 0 0 60px 60px;
+    background-color:brown;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}

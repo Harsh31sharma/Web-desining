@@ -1,0 +1,27 @@
+div{
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    background-color: rgba(255, 0, 170, 0.897);
+    border: rgba(0, 123, 45);
+    margin:  60px auto;
+}
+div:nth-of-type(2n){
+    background-color: rgb(30, 182, 25);
+}/* Transform-*/
+#a{
+    transform: rotate(-45deg); /* rotate the div tag*/
+}
+#b {
+    transform: scale(0.5); /*get half the div tag*/
+}
+/*we can change the scale by both Xand Y-axis*/
+#c{
+    transform :scale(0.5 , 2); /*(x,y)*/
+}
+#d {
+    transform:translate(200px , 100px);/*moving into 2-D plane*/
+}
+#e{
+    transform: skew(45deg);
+}

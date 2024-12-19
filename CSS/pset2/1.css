@@ -1,0 +1,15 @@
+h1{
+    text-align:center;
+    text-transform:capitalize;
+    color:aqua;
+    background-color : black;
+}
+p{
+    font-family: monospace;
+}
+#outer{
+        font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}

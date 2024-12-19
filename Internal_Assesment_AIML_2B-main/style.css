@@ -1,0 +1,86 @@
+/*
+     give the following specification as 
+     margin and padding as 0;
+        box-sizing  as border-box;
+     font-family as  "Open Sans", sans-serif;
+    
+    
+*/
+
+
+.carousel-item img{
+   
+    /*  define the carousel with width: 100% and height: 93vh;*/
+    width: 100%;
+    height: 93vh;
+
+    }
+    
+    .About_Us{
+       /* 
+       Define the  min-width: 90% and max-height: 700px*/
+       min-width: 90%;
+    max-height: 700px;
+    }
+    
+    .services .row>* {
+        padding-right:0;
+        padding-left:0;
+    }
+    .row my-5{
+        /* define the display such that it behaves like a FLEXBOX*/
+         display: flex;
+        
+    }
+    .offer_style{
+        /* 
+        
+        Set the background color as per your wish
+        
+        */
+        background-color: #f8f9fa;
+    }
+    .Juhuimg{
+        height: 20rem;
+    }
+    .footer{
+        background-color: #808080;
+        text-align: center;
+        margin-bottom: -3rem;
+    }
+    .footer2{
+        background-color: #808080;
+        text-align: center;
+        margin-top: 13rem;
+    }
+    
+    .card-img-wrapper {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .medium-img {
+        max-height: 500px; /* Adjusted height for medium size */
+        width: auto;
+        object-fit: cover; 
+      }
+
+
+      /*responsive css code*/
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }

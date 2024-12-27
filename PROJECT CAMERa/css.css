@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans PhagsPa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#slide{
+  display: none;
+}
+.main{
+  background-image: url("pexels-fox-58267-225157.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-box{
+  position: absolute;
+  font-size: x-large;
+  left: 5px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.slide-box {
+  background-color:rgb(255, 255, 255,.5);
+  width: 200px;
+  height: 100%;
+  border: 5px solid whitesmoke;
+  position: fixed;
+  left: -210px;
+  transition: 0.2s ease-in-out;
+}
+
+#brand{
+  position: absolute;
+  text-decoration: none;
+  font-size: larger;
+  padding-left: 31%;
+  cursor: pointer;
+}
+.cross{
+position: absolute;
+left: 175px;
+top: 28px;
+font-size: larger;
+cursor: pointer;
+}
+
+.menu{
+  position: absolute;
+  left: 45px;
+  top:120px;
+}
+ul{
+  line-height: 40px;
+}
+
+.menu ul li a {
+  text-decoration:none ;
+  color: #790606;
+}
+
+i {
+  padding-right: 13px ;
+}
+
+.social-media{
+  position: absolute;
+  bottom: 200px;
+  left: 38px;
+}
+
+#slide:checked~.slide-box{
+  left: 0;
+
+}
+#slide:checked ~.cross{
+  opacity: 1;
+}
+
+#slide:checked~.main-box{
+  opacity: 0;
+}
+
+
+
+/* hover effect */
+.social-media ul a:hover{
+  font-size: large;
+}
+
+ 
